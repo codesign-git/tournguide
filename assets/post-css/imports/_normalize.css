@@ -1,0 +1,71 @@
+/* CUSTOM SELECTORS  -- postcss-preset-env */
+
+@custom-selector    :--fullWidthElements        html, body, header, footer, main, section, inner-container, .fullW; 
+@custom-selector    :--d-blockElments           summary, img, video, iframe, svg;
+@custom-selector    :--headings                 h1, h2, h3, h4, h5, h6;
+@custom-selector    :--verticalMiddleElements   audio, canvas, iframe, img, svg, video;
+@custom-selector    :--inputs                   input, button, select, textarea;
+
+@viewport {
+    width: device-width;
+}
+
+::placeholder {
+    opacity:.5
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+    quotes:"“" "”"
+}
+
+:--fullWidthElements{
+    width: 100%;
+    float: left;
+}
+
+:--d-blockElments{
+    display: block;
+}
+
+:--headings{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+:--inputs{
+    font: inherit;
+    resize: none;
+    background-color: transparent;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+svg:not([fill]) {
+    fill: currentColor;
+}
+
+:--verticalMiddleElements{
+    vertical-align: middle;
+}
+
+
+a[href] {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    cursor: default;
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+}
+

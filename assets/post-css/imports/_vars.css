@@ -1,0 +1,35 @@
+:root{
+    --mW: 67rem;
+    --container-gutter: 15PX;
+    --common-gutter: 9rem;
+    
+    --clr-blk-2: rgb(43, 43, 43);
+    --clr-grey-1: #888888;
+
+    --clr-white-1: rgb(255, 255, 255);
+    --clr-blu-0: #015088;
+    --clr-blu-1: #0065AD;
+    --clr-blu-2: #087ACB;
+    --clr-ylw-1: #FFDA00;
+
+    --ff-comfort:  'Comfortaa', cursive;
+    --ff-bio: 'BioRhyme Expanded', serif; 
+    --ff-plus: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+@keyframes anim__rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes anim__marqee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

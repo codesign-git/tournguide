@@ -1,0 +1,35 @@
+{
+  "name": "tng-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "watch:css": "postcss assets/post-css/post-main.css -o assets/post-css/style.css -w",
+    "build:css": "postcss assets/post-css/post-main-css.css -o assets/post-css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss-assets": "^6.0.0",
+    "postcss-cli": "^10.0.0",
+    "postcss-discard-duplicates": "^5.1.0",
+    "postcss-each": "^1.1.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^15.0.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nesting": "^10.2.0",
+    "postcss-preset-env": "^7.8.3",
+    "postcss-pxtoremorem": "^5.1.1",
+    "postcss-simple-vars": "^7.0.1",
+    "precss-v8": "^5.0.1"
+  },
+  "browserslist": {
+    "development": [
+      "last 6 versions",
+      "not ie <= 8"
+    ]
+  }
+}
